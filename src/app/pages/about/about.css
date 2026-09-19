@@ -1,0 +1,54 @@
+.about-section {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 60px 24px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #2d1b4e;
+}
+
+.about-section h1 {
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  border-left: 5px solid #a18cd1;
+  padding-left: 14px;
+}
+
+.about-section h2 {
+  font-size: 1.4em;
+  margin-top: 36px;
+  margin-bottom: 14px;
+  color: #3b2764;
+}
+
+.intro {
+  font-size: 1.05em;
+  line-height: 1.7;
+  color: #4a3a70;
+  margin-bottom: 16px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-badge {
+  background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+  color: #2d1b4e;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 0.9em;
+  box-shadow: 0 3px 8px rgba(106, 17, 203, 0.2);
+}
+
+.focus-list {
+  line-height: 1.9;
+  color: #4a3a70;
+  padding-left: 20px;
+}
+
+.focus-list li::marker {
+  color: #a18cd1;
+}
