@@ -13,7 +13,9 @@ export class About {
     'Html',
     'CSS',
     'JavaScript',
-    'Node.js'
+    'Node.js',
+    'Angular',
+
   ]
 }
 
